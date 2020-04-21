@@ -29,6 +29,7 @@ public class WebFile2 extends ZuulFilter {
     @Override
     public Object run() throws ZuulException {
         System.out.println("ruul过滤器执行的过程");
+        System.out.println("ruul过滤器执行的过程3");
         return null;
     }
 }
