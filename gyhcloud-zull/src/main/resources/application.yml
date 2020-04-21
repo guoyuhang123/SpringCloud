@@ -1,0 +1,16 @@
+server:
+  port: 9016
+spring:
+  application:
+    name: gyhcloud-zull
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    gyhcloud-zk1:
+      path: /zk1/**
+      serviceId: gyhcloud-zk1

@@ -1,0 +1,19 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: gyhcloud-zk1
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1704v
+    username: root
+    password: 123
+mybatis:
+  mapper-locations: classpath*:com.gyh.mapper/*.xml
+  type-aliases-package: com.gyh.model
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true

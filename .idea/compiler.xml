@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gyhcloud-ribbon" />
+        <module name="gyhcloud-freemaker" />
+        <module name="gyhcloud-zk1" />
+        <module name="gyhcloud-springdata" />
+        <module name="gyhcloud-common" />
+        <module name="gyhcloud-feigh" />
+        <module name="gyhcloud-zull" />
+        <module name="gyhcloud-euraka" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gyh-parent" options="-parameters" />
+      <module name="gyhcloud-common" options="-parameters" />
+      <module name="gyhcloud-euraka" options="-parameters" />
+      <module name="gyhcloud-feigh" options="-parameters" />
+      <module name="gyhcloud-freemaker" options="-parameters" />
+      <module name="gyhcloud-ribbon" options="-parameters" />
+      <module name="gyhcloud-springdata" options="-parameters" />
+      <module name="gyhcloud-zk1" options="-parameters" />
+      <module name="gyhcloud-zull" options="-parameters" />
+    </option>
+  </component>
+</project>
