@@ -9,6 +9,7 @@ public class WebFile extends ZuulFilter {
     @Override
     public String filterType() {
         System.out.println("前置过滤器");
+        System.out.println("前置过滤器2");
         return "pre";
     }
 
